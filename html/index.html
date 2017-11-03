@@ -1,28 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="masterPretty.css">
+    <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Welcome</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+      <link rel="stylesheet" href="css/indexPretty.css">
   </head>
   <body>
-    <div class="total">
+<!-- remove dropdown content and add links and new pages/or lower things on the sme page-->
+    <div class="intro">
+      <div class="menubar">
+        <div class="row">
+
+        <div class="col ">
+          <div class="dropdown">
+              <button class="dropbtn"><a href="#about">About</a></button>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="dropdown">
+              <button class="dropbtn">Projects</button>
+                <div class="dropdown-content">
+                    <a href="#">Group Projects</a>
+                    <a href="#">A Novel Game</a>
+                    <a href="#">Labs</a>
+                </div>
+          </div>
+        <!--group projects, individual projects (list individual projects by name)-->
+        </div>
+        <div class="col">
+          <div class="dropdown">
+            <button class="dropbtn">Resume</button>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="dropdown">
+              <button class="dropbtn">Contact Me</button>
+                <div class="dropdown-content">
+                    <a href="#">Contact Form</a>
+                    <a href="https://github.com/RosanneUssery" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/rosanne-ussery-21959b140/" target="_blank">LinkedIn</a>
+                    <a href="https://twitter.com/RosanneUssery" target="_blank">Twitter</a>
+                </div>
+          </div><!--email, social media-->
+        </div>
+      </div>
+    </div>
+    <div class="parallax"></div>
+    <div class="container">
+    <div class="titleElement">
+
+          <h1>Rosanne Ussery</h1>
+          <h3>Full Stack Developer</h3>
 
     </div>
-    <h1>Rosanne Ussery</h1>
-
-    <div class= "bioPhoto">
-      <img height="300" src="images/biophoto.jpg"/>
-    </div>
-
+  </div>
+</div>
+<div class="aboutBox">
+    <div class="anchor" id="about"></div>
     <div class= "bio">
-      <p>My prior work experience has been in law enforcement, both as a student officer and then thirteen years in dispatch at Colorado State University. My position as a dispatcher taught me to pay attention to detail, work well in stressful  environments, and provide an excellent attitude toward customer service, both internal and external.</p>
-      <p>I left law enforcement to attend <a href = "http://skilldistillery.com/" target = "blank">Skill Distillery</a>'s full stack development program because I wanted a new challenge and a new career. I am looking forward to new challenges and opportunities in my new field.</p>
+      <p>My prior work experience has been in law enforcement, both as a student officer and thirteen years in dispatch at Colorado State University. My position as a dispatcher taught me to pay attention to detail, work well in stressful  environments, and provide an excellent attitude toward customer service, both internal and external.</p>
+      <p>I left law enforcement to attend <a href = "http://skilldistillery.com/" target = "blank">Skill Distillery</a>'s full stack development program because I wanted different experiences and a new career. I am looking forward to the challenges and opportunities in my new field.</p>
   		<p>Programming appeals to me because I enjoy learning how we communicate with the world. Programming languages are another form of communication, giving us beautiful ways of speaking to each other and translating tools into user experiences.</p>
   		<p>My goal is to become a lifetime learner and an expert in my field. I want to learn how to craft elegant solutions to problems and find new ways to develop the online world. My degrees in psychology and sociology allow me to understand basic motivations and better understand the needs underlying user stories. Using my MFA in creative writing will allow me to create easy-to-understand guides for processes and protocols as well as well-crafted web content.</p>
-      <p>I have always enjoyed peeling back the curtain to see how things work. Being able to manipulate the software universe and build new and artful things appeals to me, especially since the tools are there for the taking. Programming languages may be arcane, but they are not unapproachable for people who have a grasp of logic and symmetry. I believe I am one of those people and I am looking forward to seeing what I can learn and accomplish as a computer programmer.</p>
+      <p>I have always enjoyed peeling back the curtain to see how things work. Being able to manipulate the software universe and build new and artful things appeals to me, especially since the tools are there for the taking. Programming languages are not unapproachable for people who have a grasp of logic and symmetry. I believe I am one of those people and I am looking forward to seeing what I can learn and accomplish as a software developer.</p>
   </div>
-  
 </div>
+
+
+
+
+<h1> My Projects</h1>
+  <ul>
+    <li><a href="http://18.216.132.236:8080/ShoppingCart/" target="_blank">Shopping Cart</a></li>
+  </ul>
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
 </html>

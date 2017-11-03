@@ -1,0 +1,26 @@
+
+
+.total {
+  background-image: url("../images/robotlightbulb.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: black;
+}
+
+.bio {
+  display: inline-block;
+}
+
+.bioPhoto {
+  border-radius: 100%;
+  border-color: 0, 0, 0;
+  float: right;
+
+}
+
+.links {
+  
+}

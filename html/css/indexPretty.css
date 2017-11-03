@@ -1,0 +1,103 @@
+* {
+
+}
+
+/*body {
+  background-image: url("../images/BMSunsetpng.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}*/
+.parallax {
+    /* The image used */
+    background-image: url("../images/BMSunsetpng.png");
+
+    /* Set a specific height */
+    height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menubar{
+  display: scroll; /*this should be the thing to make it scroll*/
+  position: fixed; /*this should be the thing to keep it in place*/
+  z-index: 2000;
+	top: 0;
+  overflow: hidden;
+	height: 60px;
+	border: 1px solid black;
+	margin: 0px auto;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	font-family: 'Inknut+Antiqua', Serif;
+  color: lavender;
+  text-align: center;
+  padding: 8px;
+  display: block;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: black;
+    color: lavender;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: serif;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lavender;
+    width: 100%;
+    overflow: auto;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: flex;
+    font-family: serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color: black;
+    background-color: lavender;
+}
+
+.titleElement {
+  padding: 100px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.anchor {
+    position: absolute;/*This lets the internal links work*/
+    margin: -4.15em;
+ }
